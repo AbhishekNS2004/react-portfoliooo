@@ -2,13 +2,48 @@ import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    id: 1,
+    title: "IVF Companion",
+    description:
+      "Supportive website for IVF patients with cycle tracking, medication reminders, and mental wellness resources. Focus on privacy and calming interface.",
+    image: `${import.meta.env.BASE_URL}images/ivf.jpeg`,
+    category: "fullstack",
+    technologies: ["HTML", "CSS", "JavaScript", "SQL", "Python", "Alchemy"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/AbhishekNS2004/IVF",
+    featured: true,
+    tools: "HTML, CSS, JavaScript, SQL, Python, Alchemy",
+  },
+  {
+    id: 2,
+    title: "Ticket Tracker",
+    description:
+      "Real-time show ticket booking app with React frontend and PHP/XAMPP backend for seamless ticket management and booking experience.",
+    image: `${import.meta.env.BASE_URL}images/image.png`,
+    category: "fullstack",
+    technologies: ["ReactJS", "PHP", "MySQL", "HTML", "CSS"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: true,
+    tools: "ReactJS, PHP, MySQL, HTML, CSS",
+  },
+  {
+    id: 3,
     title: "Brain Tumor Detection",
-    category: "Deep Learning",
+    description:
+      "Deep learning project for tumor detection from brain scans using transfer learning and medical image preprocessing.",
+    image: `${import.meta.env.BASE_URL}images/brain.jpg`,
+    category: "fullstack",
+    technologies: ["ResNet50", "Python", "TensorFlow", "AI/ML"],
+    liveUrl: "#",
+    githubUrl:
+      "https://github.com/AbhishekNS2004/Brain-tumor-detection-using-ResNet50",
+    featured: true,
     tools: "ResNet50, Python, TensorFlow, AI/ML",
-    image: "/images/brain-tumor.png",
   },
 ];
 
@@ -87,6 +122,32 @@ const Work = () => {
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
+                        </div>
+                        <div className="project-actions">
+                          {project.githubUrl !== "#" && (
+                            <a
+                              className="project-action-btn project-action-github"
+                              href={project.githubUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              data-cursor="disable"
+                            >
+                              <FaGithub />
+                              <span>GitHub</span>
+                            </a>
+                          )}
+                          {project.liveUrl !== "#" && (
+                            <a
+                              className="project-action-btn project-action-live"
+                              href={project.liveUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              data-cursor="disable"
+                            >
+                              <FaExternalLinkAlt />
+                              <span>Live Demo</span>
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>

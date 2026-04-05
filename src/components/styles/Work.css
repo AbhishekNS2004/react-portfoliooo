@@ -107,6 +107,42 @@
   font-size: 15px;
 }
 
+.project-actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-action-btn {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.project-action-github {
+  border: 1px solid rgba(94, 234, 212, 0.55);
+  background: rgba(15, 23, 42, 0.75);
+}
+
+.project-action-live {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(30, 41, 59, 0.8);
+}
+
+.project-action-btn:hover {
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+  transform: translateY(-1px);
+}
+
 .carousel-image-wrapper {
   flex: 1;
   display: flex;
