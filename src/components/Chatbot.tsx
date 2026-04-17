@@ -40,7 +40,7 @@ const Chatbot = () => {
       return "Abhishek's skills include:\n\n**Frontend:** React.js, JavaScript, HTML, CSS\n**Backend:** Node.js, Python, Java, PHP\n**Database:** MongoDB, MySQL, SQL\n**DevOps/Cloud:** Linux, CI/CD, AWS, Git, GitHub";
     }
     if (/project|work|built|portfolio|ivf|ticket|brain tumor|resnet|hackathon/i.test(msg)) {
-      return "Notable projects:\n\n**1. IVF Companion** - IVF support website with tracking and reminders. [GitHub](https://github.com/AbhishekNS2004/IVF)\n\n**2. Ticket Tracker** - Ticket booking app with React + PHP backend.\n\n**3. Brain Tumor Detection** - MRI tumor detection with ResNet50. [GitHub](https://github.com/AbhishekNS2004/Brain-tumor-detection-using-ResNet50)";
+      return "Notable projects:\n\n**1. Hospital Management System** - A full-stack Hospital Management System that enables patients, doctors, pharmacy, diagnosis, and billing modules to interact seamlessly, with features like patient tracking, prescriptions, and chatbot assistance. [GitHub](https://github.com/AbhishekNS2004/Hospital-Management-System)\n\n**2.Drug-recomandation-System** - AI-powered drug recommendation system that suggests drugs based on symptoms and medical history. [GitHub](https://github.com/AbhishekNS2004/drug_detection)\n\n**3. Brain Tumor Detection** - MRI tumor detection with ResNet50. [GitHub](https://github.com/AbhishekNS2004/Brain-tumor-detection-using-ResNet50)";
     }
     if (/contact|email|phone|reach|hire|collaborate|location|address|where|chikkamagaluru/i.test(msg)) {
       return "You can reach Abhishek at:\n\n**Email:** abhishekns142@gmail.com\n**Phone:** +91 7411255177\n**Location:** Chikkamagaluru, India";
