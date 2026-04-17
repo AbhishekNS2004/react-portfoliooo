@@ -7,16 +7,16 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
-    title: "IVF Companion",
+    title: "Hospital Management System",
     description:
-      "Supportive website for IVF patients with cycle tracking, medication reminders, and mental wellness resources. Focus on privacy and calming interface.",
-    image: `${import.meta.env.BASE_URL}images/ivf.jpeg`,
+      "A full-stack Hospital Management System that enables patients, doctors, pharmacy, diagnosis, and billing modules to interact seamlessly, with features like patient tracking, prescriptions, and chatbot assistance",
+    image: `${import.meta.env.BASE_URL}images/hospma.png`,
     category: "fullstack",
     technologies: ["HTML", "CSS", "JavaScript", "SQL", "Python", "Alchemy"],
     liveUrl: "#",
-    githubUrl: "https://github.com/AbhishekNS2004/IVF",
+    githubUrl: "https://github.com/AbhishekNS2004/Hospital-Management-System",
     featured: true,
-    tools: "HTML, CSS, JavaScript, SQL, Python, Alchemy",
+    tools: "HTML, CSS, React.js, Django, MySQL, Bootstrap",
   },
   {
     id: 2,
