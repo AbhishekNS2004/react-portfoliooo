@@ -103,7 +103,7 @@ const WhatIDo = () => {
                 <div className="what-tags">Git</div>
                 <div className="what-tags">Python</div>
                 <div className="what-tags">Shell Scripting</div>
-                <div className="what-tags">Cloud Infrastructure</div>
+                <div className="what-tags">AWS</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -127,8 +127,8 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Server-Side Development</h4>
+              <h3>FULL-STACK</h3>
+              <h4>Full-Stack Development</h4>
               <p>
                 Developing robust backend solutions using multiple programming languages.
                 Building scalable applications with strong DSA foundations and database
@@ -137,12 +137,10 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
-                <div className="what-tags">Java</div>
-                <div className="what-tags">C</div>
                 <div className="what-tags">Django</div>
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">MySQL</div>
-                <div className="what-tags">Data Structures</div>
-                <div className="what-tags">Algorithms</div>
+                <div className="what-tags">Data Structure &amp; Algorithms</div>
                 <div className="what-tags">REST APIs</div>
               </div>
               <div className="what-arrow"></div>
